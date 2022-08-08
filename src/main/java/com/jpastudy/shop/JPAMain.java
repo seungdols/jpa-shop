@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 
 public class JPAMain {
     public static void main(String[] args) {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("hello");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpashop");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
         EntityTransaction transaction = entityManager.getTransaction();
