@@ -8,6 +8,10 @@
         <class>com.jpastudy.shop.domain.Order</class>
         <class>com.jpastudy.shop.domain.OrderItem</class>
         <class>com.jpastudy.shop.domain.OrderStatus</class>
+        <class>com.jpastudy.shop.domain.Category</class>
+        <class>com.jpastudy.shop.domain.Delivery</class>
+        <class>com.jpastudy.shop.domain.DeliveryStatus</class>
+
         <properties>
             <!-- 필수 속성 -->
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
