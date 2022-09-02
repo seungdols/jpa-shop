@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Item {
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn
+public abstract class Item {
     @Id @GeneratedValue
     @Column(name = "ITEM_ID")
-    private String id;
+    private Long id;
     private String name;
     private int price;
     private int stockQuantity;
@@ -19,12 +21,20 @@ public class Item {
     public Item() {
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public List<Category> getCategories() {
+        return categories;
+    }
+
+    public void setCategories(List<Category> categories) {
+        this.categories = categories;
     }
 
     public String getName() {

@@ -11,6 +11,9 @@
         <class>com.jpastudy.shop.domain.Category</class>
         <class>com.jpastudy.shop.domain.Delivery</class>
         <class>com.jpastudy.shop.domain.DeliveryStatus</class>
+        <class>com.jpastudy.shop.domain.Album</class>
+        <class>com.jpastudy.shop.domain.Book</class>
+        <class>com.jpastudy.shop.domain.Movie</class>
 
         <properties>
             <!-- 필수 속성 -->
