@@ -14,6 +14,7 @@
         <class>com.jpastudy.shop.domain.Album</class>
         <class>com.jpastudy.shop.domain.Book</class>
         <class>com.jpastudy.shop.domain.Movie</class>
+        <class>com.jpastudy.shop.domain.Address</class>
 
         <properties>
             <!-- 필수 속성 -->
